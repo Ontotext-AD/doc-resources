@@ -1,8 +1,13 @@
 # doc-resources
 Ontotext documentation resources
 
-Adding this repository as submodule to another repository
----------------------------------------------------------
+# Resources organization
+Every resource type(directory) has it own branch named after it:
+ * [assets](https://github.com/Ontotext-AD/doc-resources/tree/assets)
+ * [release](https://github.com/Ontotext-AD/doc-resources/tree/release)
+ * [_layouts](https://github.com/Ontotext-AD/doc-resources/tree/_layouts)
+
+# Adding this repository as submodule to another repository
 1. Go to the root of your git repository clone
 2. Adding submodule via:
  * assets - `git submodule add -b assets --name assets https://github.com/Ontotext-AD/doc-resources.git assets`
@@ -11,8 +16,7 @@ Adding this repository as submodule to another repository
 3. Now you are ready to commit new directory `assets`, `release`, `_layouts` and `.gitmodules` file.
 
 
-Cloning a documentation repository and fetching the submodule
----------------------------------------------------------
+#Cloning a documentation repository and fetching the submodule
 
 If you're cloning a documentation repository, the `assets`, `release` and `_layouts` folder may be empty. To fetch it run:
 `git submodule update --init --recursive`
