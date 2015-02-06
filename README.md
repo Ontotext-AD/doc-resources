@@ -12,7 +12,7 @@ Every resource type(directory) has it own branch named after it:
 2. Adding submodule via:
  * assets - `git submodule add -b assets --name assets https://github.com/Ontotext-AD/doc-resources.git assets`
  * release - `git submodule add -b release --name release https://github.com/Ontotext-AD/doc-resources.git release`
- * _layouts -`git submodule add -b _layouts --name _layouts https://github.com/Ontotext-AD/doc-resources.git _layouts`
+ * _layouts -`git submodule add -b _layouts --name layouts https://github.com/Ontotext-AD/doc-resources.git _layouts`
 3. Now you are ready to commit new directory `assets`, `release`, `_layouts` and `.gitmodules` file.
 
 
